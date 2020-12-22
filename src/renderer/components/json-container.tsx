@@ -82,7 +82,7 @@ const JsonContainer: React.FC<JsonContainerProps> = (props) => {
         el.style.color = props.theme.colors.primary.lightText;
       } else {
         el.style.backgroundColor = "inherit";
-        el.style.color = "inherid";
+        el.style.color = "inherit";
       }
     });
 

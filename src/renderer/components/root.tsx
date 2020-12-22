@@ -51,9 +51,9 @@ export const Root: React.FC = () => {
         <AppContainer>
           <TitleBar />
           <ContentContainer>
-            <Controls /> {/* Needs to be able to scroll to elements */}
+            <Controls />
             <LogContainer>
-              <Options />
+              <Options /> {/* Needs to be able to scroll to elements */}
               <JsonContainer /> {/* Finds all the HTML elements we need */}
             </LogContainer>
           </ContentContainer>
