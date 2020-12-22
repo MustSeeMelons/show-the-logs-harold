@@ -4,8 +4,6 @@ import * as path from "path";
 import { setupMainEventListeners } from "./main-events";
 import installExtension, { REDUX_DEVTOOLS } from "electron-devtools-installer";
 
-declare const DEBUG_DISABLE: boolean;
-
 let mainWindow: Electron.BrowserWindow;
 
 function createWindow() {
@@ -37,7 +35,7 @@ function createWindow() {
   );
 
   // Open the DevTools.
-  // !DEBUG_DISABLE && mainWindow.webContents.openDevTools();
+  // mainWindow.webContents.openDevTools();
 
   // Emitted when the window is closed.
   mainWindow.on("closed", () => {

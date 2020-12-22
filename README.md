@@ -2,4 +2,4 @@
 
 - Error processing (what errors? - not json)
 - Themes
-- Search (webContents/webViews) - quite the hassle
+- Search in file (similar to filter of logs probably)
